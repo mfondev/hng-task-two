@@ -10,7 +10,7 @@ const Homepage = () => {
   const [errorMessage, setErrorMessage] = useState("");
 
   const API_URL = "https://api.themoviedb.org/3/movie/top_rated?";
-  const API_KEY = "33d388825e76e9b397dba3d1301d3706";
+  const API_KEY = "d67c9a2042169f50e7f353c76bd18906";
 
   useEffect(() => {
     fetch(`${API_URL}api_key=${API_KEY}&language=en-US&page=1`)

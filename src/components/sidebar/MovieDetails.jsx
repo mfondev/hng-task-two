@@ -11,7 +11,7 @@ const MovieDetails = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
   
-    const API_KEY = "33d388825e76e9b397dba3d1301d3706";
+    const API_KEY = "d67c9a2042169f50e7f353c76bd18906";
   
     useEffect(() => {
       fetch(
